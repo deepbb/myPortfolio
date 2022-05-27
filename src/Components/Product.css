@@ -1,0 +1,74 @@
+
+.productsegment{
+    margin-left: 15%;
+    margin-top: 50px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+
+
+}
+.heading{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.line{
+    width: 70%;
+    margin-left: 15%;
+    color: aliceblue;
+
+    
+}
+.text{
+    margin-left: 15%;
+    font-style: 15px;
+    font-weight: 300;
+}
+.projectpara{
+    width: 90%;
+    margin-left: 10px;
+}
+
+.prod{
+    margin-top: 40px;
+    width: 45%;
+    height: 60vh;
+    margin-left: 25px;
+    margin-bottom: 70px;
+    z-index: 999;
+    border: 2px solid rgb(243, 242,242);
+    border-radius: 10px;
+    
+}
+.learn{
+    color:skyblue;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.linkProject{
+    text-decoration: none;
+}
+   
+.p-img{
+    height: 70%;
+    width:100%;
+}
+@media screen and (max-width:480px) {
+    .prod{
+        width: 70%;
+        height: 35vh;
+        margin-left:15%;
+
+    }
+    .projectpara{
+        display: none;
+    }
+    .learn{
+        margin-top: 70px;
+    }
+}

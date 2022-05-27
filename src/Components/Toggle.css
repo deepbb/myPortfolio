@@ -1,0 +1,38 @@
+.toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    height: 25px;
+    width: 45px;
+    background-color: #FFF;
+    border-radius: 20%;
+    border: 2px solid #999;
+    z-index: 100;
+    top:40px;
+    right:15px;
+
+}
+.t-img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-left: 1px;
+}
+.t-button{
+    height: 25px;
+    width: 23px;
+    border-radius: 10%;
+    background-color: #999;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+@media screen and (max-width:480px){
+    .toggle{
+        position: absolute;
+        right:5px
+    }
+
+}
+
